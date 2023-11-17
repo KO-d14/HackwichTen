@@ -17,6 +17,7 @@
 		63239F672AFD96A00014BCEF /* HackwichTenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63239F662AFD96A00014BCEF /* HackwichTenUITests.swift */; };
 		63239F692AFD96A00014BCEF /* HackwichTenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63239F682AFD96A00014BCEF /* HackwichTenUITestsLaunchTests.swift */; };
 		63239F762AFD9AE40014BCEF /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63239F752AFD9AE40014BCEF /* Restaurant.swift */; };
+		63AC6DED2B004FE5004D0380 /* secondRestaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AC6DEC2B004FE5004D0380 /* secondRestaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		63239F662AFD96A00014BCEF /* HackwichTenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichTenUITests.swift; sourceTree = "<group>"; };
 		63239F682AFD96A00014BCEF /* HackwichTenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackwichTenUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		63239F752AFD9AE40014BCEF /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		63AC6DEC2B004FE5004D0380 /* secondRestaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondRestaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				63239F472AFD969D0014BCEF /* SceneDelegate.swift */,
 				63239F492AFD969D0014BCEF /* ViewController.swift */,
 				63239F752AFD9AE40014BCEF /* Restaurant.swift */,
+				63AC6DEC2B004FE5004D0380 /* secondRestaurant.swift */,
 				63239F4B2AFD969D0014BCEF /* Main.storyboard */,
 				63239F4E2AFD96A00014BCEF /* Assets.xcassets */,
 				63239F502AFD96A00014BCEF /* LaunchScreen.storyboard */,
@@ -264,6 +267,7 @@
 				63239F762AFD9AE40014BCEF /* Restaurant.swift in Sources */,
 				63239F4A2AFD969D0014BCEF /* ViewController.swift in Sources */,
 				63239F462AFD969D0014BCEF /* AppDelegate.swift in Sources */,
+				63AC6DED2B004FE5004D0380 /* secondRestaurant.swift in Sources */,
 				63239F482AFD969D0014BCEF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

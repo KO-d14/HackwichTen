@@ -8,13 +8,14 @@
 
 import UIKit
 /*
+**** HACKWICH 10 IN-CLASS ASSIGNMENTS (5 PARTS TOTAL) ****
 PART 1 - (setup)
- Part 2: Set up Map Kit View Object (4 points)
+PART 2: Set up Map Kit View Object (4 points)
  #1. In the object library, drag and drop a “Map Kit View” on to your VC and stretch the view across your VC:
-#2. More set up for Map Kit View & import frameworks:
-A. >> code below
-B. import MapKit framework
-C. import CoreLocation framework (see line 10 & 11 below)
+ #2. More set up for Map Kit View & import frameworks:
+    A. >>> code below
+    B. import MapKit framework
+    C. import CoreLocation framework 
 */
 import MapKit
 import CoreLocation
@@ -38,16 +39,19 @@ class ViewController: UIViewController {
         centerMapOnLocation(location: initialLocation)
         
 /*
-Part 5: Creating an Annotation to Display a Restaurant location on Map (3 points)
+PART 5: Creating an Annotation to Display a Restaurant location on Map (3 points)
         Keep in mind that in order to display an annotation, we need to set the annotation to display in viewDidLoad. This means that the annotation will show when the app initially loads.
 
-1. Go to your ViewController.swift file, and in viewDidLoad enter the following lines of code:
+        1. Go to your ViewController.swift file, and in viewDidLoad enter the following lines of code:
 */
         let restaurantOne = Restaurant(title: "Kalapawai", type: "American",
-                       coordinate: CLLocationCoordinate2D(latitude: 21.346470, longitude:
-                       -158.080098))
-                
+                       coordinate: CLLocationCoordinate2D(latitude: 21.346470, longitude: -158.080098))
                 mapView.addAnnotation(restaurantOne)
+        
+// PROBLEM SET #1
+        let restaurantTwo = Restaurant(title: "GyuKaku", type: "Japanese BBQ",
+                       coordinate: CLLocationCoordinate2D(latitude: 21.33085443314223, longitude: -158.09409331057617))
+                mapView.addAnnotation(restaurantTwo)
     }
     
 //PART3-#2) Add the function,  centerMapOnLocation, underneath the viewDidLoad.
@@ -62,4 +66,6 @@ Part 5: Creating an Annotation to Display a Restaurant location on Map (3 points
 
            }
 }
+
+
 
