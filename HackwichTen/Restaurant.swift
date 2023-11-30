@@ -23,13 +23,13 @@ class Restaurant: NSObject, MKAnnotation {
   /*
 PART4-#5. Let’s set up the Restaurant class.
     A.)  Declare three variables that will hold data that the annotation will access 
-    B.)
+    B.) >>> code below
    */
     let restaurantTitle: String?
     let restaurantType: String
     var coordinate: CLLocationCoordinate2D
     
-    // >>> PART4-#5 Initialize the MKAnnotation object
+    // >>> PART4-#5B Initialize the MKAnnotation object
     init(title: String, type: String, coordinate: CLLocationCoordinate2D)
              {
                  self.restaurantTitle = title
